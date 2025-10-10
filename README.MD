@@ -1,5 +1,3 @@
-# step 1
-
 ## Build a industry-grade honeypot to trap hackers with me
 
 ## lets prepare host you system before devlop the honeytrap system.
