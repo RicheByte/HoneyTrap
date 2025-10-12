@@ -110,7 +110,7 @@ mkdir -p ~/honeypot/honeypot
 cd ~/honeypot
 ```
 
-#### or run the ./setup.sh as giving persimission for execute.
+
 
 
 
