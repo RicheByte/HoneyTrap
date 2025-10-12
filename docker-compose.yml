@@ -1,0 +1,68 @@
+version: '3.8'
+
+services:
+  honeypot:
+    build: ./honeypot
+    networks:
+      - honeynet
+    volumes:
+      - ./data:/data
+    ports:
+      - "2222:2222"
+      - "9090:9090"
+    environment:
+      HONEYPOT_BIND_IP: 0.0.0.0
+      HONEYPOT_PORT: 2222
+      HONEYPOT_MAX_CONNECTIONS: 1000
+      HONEYPOT_BANNER: "SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.3"
+      HONEYPOT_SESSION_TIMEOUT: 300
+      ENABLE_METRICS: "true"
+      METRICS_PORT: 9090
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python", "-c", "import socket; s = socket.socket(); s.settimeout(5); s.connect(('127.0.0.1', 2222)); s.close()"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  pcap:
+  image: corfr/tcpdump
+  privileged: true
+  volumes:
+    ./data/pcaps:/data/pcaps
+  command: >
+    /bin/sh -c "mkdir -p /data/pcaps && \
+    tcpdump -i any -w /data/pcaps/honeypot-$(date +'%Y-%m-%d_%H-%M-%S').pcap -n -s 65535 'tcp port 2222'"
+  restart: unless-stopped
+
+
+
+  prometheus:
+    image: prom/prometheus
+    networks:
+      - honeynet
+    ports:
+      - "9091:9090"
+    volumes:
+      - ./configs/prometheus.yml:/etc/prometheus/prometheus.yml
+    restart: unless-stopped
+    depends_on:
+      - honeypot
+
+  grafana:
+    image: grafana/grafana
+    networks:
+      - honeynet
+    ports:
+      - "3000:3000"
+    environment:
+      GF_SECURITY_ADMIN_PASSWORD: admin
+    volumes:
+      - ./data/grafana:/var/lib/grafana
+    restart: unless-stopped
+    depends_on:
+      - prometheus
+
+networks:
+  honeynet:
+    driver: bridge

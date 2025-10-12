@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  honeypot:
+    build: ./honeypot
+    volumes:
+      - ./data:/data
+    ports:
+      - "2222:2222"
+    environment:
+      HONEYPOT_PORT: 2222
+    restart: unless-stopped
+
+  pcap:
+  image: corfr/tcpdump
+  privileged: true
+  volumes:
+    - ./data:/data
+    - ./start_tcpdump.sh:/start_tcpdump.sh
+  command: /start_tcpdump.sh
+  restart: unless-stopped
+

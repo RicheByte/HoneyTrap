@@ -1,0 +1,764 @@
+2025-10-12 06:05:16,607 - ssh_honeypot - INFO - Starting SSH/TCP Honeypot...
+2025-10-12 06:05:16,608 - ssh_honeypot - INFO - Starting enhanced honeypot server on 0.0.0.0:2222
+2025-10-12 06:05:16,610 - ssh_honeypot - INFO - Metrics server started on port 9090
+2025-10-12 06:05:16,610 - ssh_honeypot - INFO - Honeypot listening on 0.0.0.0:2222
+2025-10-12 06:05:16,610 - ssh_honeypot - INFO - Ready to accept SSH and TCP connections...
+2025-10-12 06:05:21,605 - ssh_honeypot - INFO - New connection from 127.0.0.1:54440
+2025-10-12 06:05:21,606 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:05:21,607 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:05:21,607 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:05:51,762 - ssh_honeypot - INFO - New connection from 127.0.0.1:49664
+2025-10-12 06:05:51,763 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:05:51,763 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:05:51,763 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:06:21,903 - ssh_honeypot - INFO - New connection from 127.0.0.1:58632
+2025-10-12 06:06:21,903 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:06:21,904 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:06:21,904 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:06:52,055 - ssh_honeypot - INFO - New connection from 127.0.0.1:33992
+2025-10-12 06:06:52,055 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:06:52,056 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:06:52,056 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:07:22,181 - ssh_honeypot - INFO - New connection from 127.0.0.1:36636
+2025-10-12 06:07:22,181 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:07:22,182 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:07:22,183 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:07:52,319 - ssh_honeypot - INFO - New connection from 127.0.0.1:33650
+2025-10-12 06:07:52,320 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:07:52,320 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:07:52,321 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:08:22,465 - ssh_honeypot - INFO - New connection from 127.0.0.1:60902
+2025-10-12 06:08:22,465 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:08:22,466 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:08:22,466 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:08:52,611 - ssh_honeypot - INFO - New connection from 127.0.0.1:52064
+2025-10-12 06:08:52,611 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:08:52,612 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:08:52,612 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:09:22,725 - ssh_honeypot - INFO - New connection from 127.0.0.1:48126
+2025-10-12 06:09:22,725 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:09:22,726 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:09:22,726 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:09:52,873 - ssh_honeypot - INFO - New connection from 127.0.0.1:50094
+2025-10-12 06:09:52,874 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:09:52,874 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:09:52,875 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:10:23,008 - ssh_honeypot - INFO - New connection from 127.0.0.1:49436
+2025-10-12 06:10:23,008 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:10:23,009 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:10:23,010 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:10:53,150 - ssh_honeypot - INFO - New connection from 127.0.0.1:53192
+2025-10-12 06:10:53,150 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:10:53,150 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:10:53,150 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:11:23,251 - ssh_honeypot - INFO - New connection from 127.0.0.1:42658
+2025-10-12 06:11:23,251 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:11:23,252 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:11:23,253 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:11:53,387 - ssh_honeypot - INFO - New connection from 127.0.0.1:51332
+2025-10-12 06:11:53,387 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:11:53,388 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:11:53,388 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:12:23,513 - ssh_honeypot - INFO - New connection from 127.0.0.1:43788
+2025-10-12 06:12:23,513 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:12:23,513 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:12:23,514 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:12:31,300 - ssh_honeypot - INFO - Starting SSH/TCP Honeypot...
+2025-10-12 06:12:31,300 - ssh_honeypot - INFO - Starting enhanced honeypot server on 0.0.0.0:2222
+2025-10-12 06:12:31,308 - ssh_honeypot - INFO - Metrics server started on port 9090
+2025-10-12 06:12:31,309 - ssh_honeypot - INFO - Honeypot listening on 0.0.0.0:2222
+2025-10-12 06:12:31,309 - ssh_honeypot - INFO - Ready to accept SSH and TCP connections...
+2025-10-12 06:12:36,103 - ssh_honeypot - INFO - New connection from 127.0.0.1:44288
+2025-10-12 06:12:36,103 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:12:36,105 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:12:36,106 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:13:06,188 - ssh_honeypot - INFO - New connection from 127.0.0.1:54680
+2025-10-12 06:13:06,189 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:13:06,190 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:13:06,190 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:13:36,306 - ssh_honeypot - INFO - New connection from 127.0.0.1:42810
+2025-10-12 06:13:36,307 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:13:36,307 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:13:36,307 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:14:06,414 - ssh_honeypot - INFO - New connection from 127.0.0.1:45312
+2025-10-12 06:14:06,414 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:14:06,415 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:14:06,415 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:14:36,530 - ssh_honeypot - INFO - New connection from 127.0.0.1:35956
+2025-10-12 06:14:36,530 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:14:36,531 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:14:36,531 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:15:06,660 - ssh_honeypot - INFO - New connection from 127.0.0.1:38472
+2025-10-12 06:15:06,661 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:15:06,662 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:15:06,663 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:15:36,785 - ssh_honeypot - INFO - New connection from 127.0.0.1:49430
+2025-10-12 06:15:36,785 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:15:36,786 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:15:36,786 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:16:06,887 - ssh_honeypot - INFO - New connection from 127.0.0.1:59786
+2025-10-12 06:16:06,887 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:16:06,888 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:16:06,888 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:16:36,967 - ssh_honeypot - INFO - New connection from 127.0.0.1:45136
+2025-10-12 06:16:36,967 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:16:36,967 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:16:36,967 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:17:07,084 - ssh_honeypot - INFO - New connection from 127.0.0.1:52184
+2025-10-12 06:17:07,085 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:17:07,085 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:17:07,086 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:17:37,199 - ssh_honeypot - INFO - New connection from 127.0.0.1:60480
+2025-10-12 06:17:37,200 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:17:37,200 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:17:37,200 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:17:49,199 - ssh_honeypot - INFO - Starting SSH/TCP Honeypot...
+2025-10-12 06:17:49,199 - ssh_honeypot - INFO - Starting enhanced honeypot server on 0.0.0.0:2222
+2025-10-12 06:17:49,207 - ssh_honeypot - INFO - Metrics server started on port 9090
+2025-10-12 06:17:49,207 - ssh_honeypot - INFO - Honeypot listening on 0.0.0.0:2222
+2025-10-12 06:17:49,208 - ssh_honeypot - INFO - Ready to accept SSH and TCP connections...
+2025-10-12 06:17:54,026 - ssh_honeypot - INFO - New connection from 127.0.0.1:41614
+2025-10-12 06:17:54,026 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:17:54,027 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:17:54,027 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:18:24,139 - ssh_honeypot - INFO - New connection from 127.0.0.1:46928
+2025-10-12 06:18:24,140 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:18:24,141 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:18:24,141 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:18:54,279 - ssh_honeypot - INFO - New connection from 127.0.0.1:56268
+2025-10-12 06:18:54,280 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:18:54,281 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:18:54,281 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:19:24,395 - ssh_honeypot - INFO - New connection from 127.0.0.1:47816
+2025-10-12 06:19:24,396 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:19:24,396 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:19:24,396 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:19:54,500 - ssh_honeypot - INFO - New connection from 127.0.0.1:56964
+2025-10-12 06:19:54,500 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:19:54,501 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:19:54,501 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:20:24,606 - ssh_honeypot - INFO - New connection from 127.0.0.1:39242
+2025-10-12 06:20:24,606 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:20:24,607 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:20:24,607 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:20:54,715 - ssh_honeypot - INFO - New connection from 127.0.0.1:40002
+2025-10-12 06:20:54,716 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:20:54,716 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:20:54,716 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:21:24,850 - ssh_honeypot - INFO - New connection from 127.0.0.1:51000
+2025-10-12 06:21:24,851 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:21:24,853 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:21:24,853 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:21:54,998 - ssh_honeypot - INFO - New connection from 127.0.0.1:46150
+2025-10-12 06:21:54,998 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:21:54,999 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:21:54,999 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:22:25,097 - ssh_honeypot - INFO - New connection from 127.0.0.1:50116
+2025-10-12 06:22:25,098 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:22:25,098 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:22:25,098 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:22:45,149 - ssh_honeypot - INFO - Starting SSH/TCP Honeypot...
+2025-10-12 06:22:45,149 - ssh_honeypot - INFO - Starting enhanced honeypot server on 0.0.0.0:2222
+2025-10-12 06:22:45,157 - ssh_honeypot - INFO - Metrics server started on port 9090
+2025-10-12 06:22:45,158 - ssh_honeypot - INFO - Honeypot listening on 0.0.0.0:2222
+2025-10-12 06:22:45,158 - ssh_honeypot - INFO - Ready to accept SSH and TCP connections...
+2025-10-12 06:22:50,097 - ssh_honeypot - INFO - New connection from 127.0.0.1:34114
+2025-10-12 06:22:50,097 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:22:50,097 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:22:50,097 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:23:20,208 - ssh_honeypot - INFO - New connection from 127.0.0.1:53528
+2025-10-12 06:23:20,208 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:23:20,209 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:23:20,209 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:23:50,303 - ssh_honeypot - INFO - New connection from 127.0.0.1:52676
+2025-10-12 06:23:50,303 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:23:50,303 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:23:50,303 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:24:20,401 - ssh_honeypot - INFO - New connection from 127.0.0.1:32786
+2025-10-12 06:24:20,401 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:24:20,402 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:24:20,402 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:24:46,024 - ssh_honeypot - INFO - Starting SSH/TCP Honeypot...
+2025-10-12 06:24:46,025 - ssh_honeypot - INFO - Starting enhanced honeypot server on 0.0.0.0:2222
+2025-10-12 06:24:46,027 - ssh_honeypot - INFO - Metrics server started on port 9090
+2025-10-12 06:24:46,027 - ssh_honeypot - INFO - Honeypot listening on 0.0.0.0:2222
+2025-10-12 06:24:46,028 - ssh_honeypot - INFO - Ready to accept SSH and TCP connections...
+2025-10-12 06:24:51,057 - ssh_honeypot - INFO - New connection from 127.0.0.1:57748
+2025-10-12 06:24:51,057 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:24:51,059 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:24:51,059 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:25:21,158 - ssh_honeypot - INFO - New connection from 127.0.0.1:51874
+2025-10-12 06:25:21,158 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:25:21,158 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:25:21,158 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:25:51,275 - ssh_honeypot - INFO - New connection from 127.0.0.1:58398
+2025-10-12 06:25:51,275 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:25:51,276 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:25:51,276 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:26:03,305 - ssh_honeypot - INFO - Starting SSH/TCP Honeypot...
+2025-10-12 06:26:03,305 - ssh_honeypot - INFO - Starting enhanced honeypot server on 0.0.0.0:2222
+2025-10-12 06:26:03,310 - ssh_honeypot - INFO - Metrics server started on port 9090
+2025-10-12 06:26:03,310 - ssh_honeypot - INFO - Honeypot listening on 0.0.0.0:2222
+2025-10-12 06:26:03,310 - ssh_honeypot - INFO - Ready to accept SSH and TCP connections...
+2025-10-12 06:26:08,325 - ssh_honeypot - INFO - New connection from 127.0.0.1:53858
+2025-10-12 06:26:08,325 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:26:08,326 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:26:08,326 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:26:38,459 - ssh_honeypot - INFO - New connection from 127.0.0.1:43574
+2025-10-12 06:26:38,459 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:26:38,459 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:26:38,460 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:27:08,573 - ssh_honeypot - INFO - New connection from 127.0.0.1:47136
+2025-10-12 06:27:08,573 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:27:08,576 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:27:08,576 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:27:38,717 - ssh_honeypot - INFO - New connection from 127.0.0.1:49638
+2025-10-12 06:27:38,717 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:27:38,718 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:27:38,718 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:28:08,852 - ssh_honeypot - INFO - New connection from 127.0.0.1:46052
+2025-10-12 06:28:08,853 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:28:08,853 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:28:08,854 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:28:38,964 - ssh_honeypot - INFO - New connection from 127.0.0.1:59464
+2025-10-12 06:28:38,964 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:28:38,965 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:28:38,965 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:29:09,110 - ssh_honeypot - INFO - New connection from 127.0.0.1:57382
+2025-10-12 06:29:09,111 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:29:09,111 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:29:09,112 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:29:39,204 - ssh_honeypot - INFO - New connection from 127.0.0.1:59092
+2025-10-12 06:29:39,204 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:29:39,205 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:29:39,206 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:30:09,494 - ssh_honeypot - INFO - New connection from 127.0.0.1:39888
+2025-10-12 06:30:09,496 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:30:09,500 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:30:09,501 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:30:39,631 - ssh_honeypot - INFO - New connection from 127.0.0.1:59096
+2025-10-12 06:30:39,632 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:30:39,633 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:30:39,633 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:31:09,788 - ssh_honeypot - INFO - New connection from 127.0.0.1:36918
+2025-10-12 06:31:09,788 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:31:09,789 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:31:09,790 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:31:39,936 - ssh_honeypot - INFO - New connection from 127.0.0.1:49724
+2025-10-12 06:31:39,936 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:31:39,937 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:31:39,937 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:32:10,053 - ssh_honeypot - INFO - New connection from 127.0.0.1:35742
+2025-10-12 06:32:10,053 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:32:10,055 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:32:10,055 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:32:40,188 - ssh_honeypot - INFO - New connection from 127.0.0.1:42940
+2025-10-12 06:32:40,188 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:32:40,189 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:32:40,189 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:33:10,353 - ssh_honeypot - INFO - New connection from 127.0.0.1:37152
+2025-10-12 06:33:10,353 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:33:10,354 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:33:10,354 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:33:40,516 - ssh_honeypot - INFO - New connection from 127.0.0.1:58066
+2025-10-12 06:33:40,516 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:33:40,517 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:33:40,518 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:34:10,661 - ssh_honeypot - INFO - New connection from 127.0.0.1:37226
+2025-10-12 06:34:10,662 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:34:10,662 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:34:10,663 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:34:40,840 - ssh_honeypot - INFO - New connection from 127.0.0.1:57834
+2025-10-12 06:34:40,840 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:34:40,841 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:34:40,841 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:35:10,981 - ssh_honeypot - INFO - New connection from 127.0.0.1:49062
+2025-10-12 06:35:10,981 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:35:10,982 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:35:10,982 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:35:41,101 - ssh_honeypot - INFO - New connection from 127.0.0.1:45710
+2025-10-12 06:35:41,101 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:35:41,102 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:35:41,102 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:36:11,224 - ssh_honeypot - INFO - New connection from 127.0.0.1:32932
+2025-10-12 06:36:11,225 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:36:11,225 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:36:11,225 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:36:41,359 - ssh_honeypot - INFO - New connection from 127.0.0.1:36804
+2025-10-12 06:36:41,360 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:36:41,360 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:36:41,360 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:37:11,473 - ssh_honeypot - INFO - New connection from 127.0.0.1:47646
+2025-10-12 06:37:11,473 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:37:11,473 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:37:11,473 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:37:41,616 - ssh_honeypot - INFO - New connection from 127.0.0.1:53634
+2025-10-12 06:37:41,616 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:37:41,617 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:37:41,617 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:38:11,724 - ssh_honeypot - INFO - New connection from 127.0.0.1:55828
+2025-10-12 06:38:11,724 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:38:11,725 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:38:11,725 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:38:41,865 - ssh_honeypot - INFO - New connection from 127.0.0.1:52102
+2025-10-12 06:38:41,865 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:38:41,866 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:38:41,866 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:39:11,960 - ssh_honeypot - INFO - New connection from 127.0.0.1:54798
+2025-10-12 06:39:11,960 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:39:11,961 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:39:11,961 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:39:42,082 - ssh_honeypot - INFO - New connection from 127.0.0.1:60390
+2025-10-12 06:39:42,082 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:39:42,083 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:39:42,083 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:40:12,197 - ssh_honeypot - INFO - New connection from 127.0.0.1:52624
+2025-10-12 06:40:12,197 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:40:12,197 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:40:12,197 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:40:42,312 - ssh_honeypot - INFO - New connection from 127.0.0.1:58406
+2025-10-12 06:40:42,313 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:40:42,313 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:40:42,313 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:41:12,402 - ssh_honeypot - INFO - New connection from 127.0.0.1:45900
+2025-10-12 06:41:12,402 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:41:12,403 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:41:12,403 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:41:42,517 - ssh_honeypot - INFO - New connection from 127.0.0.1:49044
+2025-10-12 06:41:42,517 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:41:42,518 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:41:42,518 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:42:12,625 - ssh_honeypot - INFO - New connection from 127.0.0.1:43390
+2025-10-12 06:42:12,625 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:42:12,625 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:42:12,626 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:42:42,760 - ssh_honeypot - INFO - New connection from 127.0.0.1:37384
+2025-10-12 06:42:42,760 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:42:42,761 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:42:42,761 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:43:12,855 - ssh_honeypot - INFO - New connection from 127.0.0.1:54546
+2025-10-12 06:43:12,856 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:43:12,856 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:43:12,856 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:43:42,964 - ssh_honeypot - INFO - New connection from 127.0.0.1:42570
+2025-10-12 06:43:42,964 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:43:42,965 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:43:42,965 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:44:13,107 - ssh_honeypot - INFO - New connection from 127.0.0.1:42874
+2025-10-12 06:44:13,107 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:44:13,108 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:44:13,108 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:44:43,253 - ssh_honeypot - INFO - New connection from 127.0.0.1:42760
+2025-10-12 06:44:43,254 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:44:43,255 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:44:43,255 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:45:13,357 - ssh_honeypot - INFO - New connection from 127.0.0.1:57316
+2025-10-12 06:45:13,357 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:45:13,357 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:45:13,357 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:45:32,382 - ssh_honeypot - INFO - Starting SSH/TCP Honeypot...
+2025-10-12 06:45:32,383 - ssh_honeypot - INFO - Starting enhanced honeypot server on 0.0.0.0:2222
+2025-10-12 06:45:32,389 - ssh_honeypot - INFO - Metrics server started on port 9090
+2025-10-12 06:45:32,389 - ssh_honeypot - INFO - Honeypot listening on 0.0.0.0:2222
+2025-10-12 06:45:32,389 - ssh_honeypot - INFO - Ready to accept SSH and TCP connections...
+2025-10-12 06:45:37,260 - ssh_honeypot - INFO - New connection from 127.0.0.1:49530
+2025-10-12 06:45:37,261 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:45:37,261 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:45:37,262 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:46:07,389 - ssh_honeypot - INFO - New connection from 127.0.0.1:44602
+2025-10-12 06:46:07,389 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:46:07,390 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:46:07,390 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:46:37,518 - ssh_honeypot - INFO - New connection from 127.0.0.1:53158
+2025-10-12 06:46:37,518 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:46:37,519 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:46:37,519 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:47:07,629 - ssh_honeypot - INFO - New connection from 127.0.0.1:52502
+2025-10-12 06:47:07,629 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:47:07,630 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:47:07,630 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:47:37,754 - ssh_honeypot - INFO - New connection from 127.0.0.1:55024
+2025-10-12 06:47:37,755 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:47:37,755 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:47:37,756 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:48:07,863 - ssh_honeypot - INFO - New connection from 127.0.0.1:50522
+2025-10-12 06:48:07,863 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:48:07,863 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:48:07,863 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:48:37,996 - ssh_honeypot - INFO - New connection from 127.0.0.1:49172
+2025-10-12 06:48:37,997 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:48:37,997 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:48:37,997 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:49:08,108 - ssh_honeypot - INFO - New connection from 127.0.0.1:58162
+2025-10-12 06:49:08,108 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:49:08,108 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:49:08,108 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:49:38,211 - ssh_honeypot - INFO - New connection from 127.0.0.1:48786
+2025-10-12 06:49:38,211 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:49:38,212 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:49:38,212 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:50:08,357 - ssh_honeypot - INFO - New connection from 127.0.0.1:57058
+2025-10-12 06:50:08,357 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:50:08,357 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:50:08,357 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:50:38,450 - ssh_honeypot - INFO - New connection from 127.0.0.1:45866
+2025-10-12 06:50:38,450 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:50:38,450 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:50:38,450 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:51:08,575 - ssh_honeypot - INFO - New connection from 127.0.0.1:52840
+2025-10-12 06:51:08,575 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:51:08,576 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:51:08,576 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:51:38,689 - ssh_honeypot - INFO - New connection from 127.0.0.1:59466
+2025-10-12 06:51:38,689 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:51:38,689 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:51:38,690 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:52:08,808 - ssh_honeypot - INFO - New connection from 127.0.0.1:36186
+2025-10-12 06:52:08,808 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:52:08,809 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:52:08,809 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:52:38,901 - ssh_honeypot - INFO - New connection from 127.0.0.1:42796
+2025-10-12 06:52:38,901 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:52:38,902 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:52:38,902 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:53:09,011 - ssh_honeypot - INFO - New connection from 127.0.0.1:44298
+2025-10-12 06:53:09,011 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:53:09,012 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:53:09,012 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:55:05,205 - ssh_honeypot - INFO - New connection from 127.0.0.1:54356
+2025-10-12 06:55:05,206 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:55:05,206 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:55:05,206 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:55:35,340 - ssh_honeypot - INFO - New connection from 127.0.0.1:56766
+2025-10-12 06:55:35,341 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:55:35,341 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:55:35,342 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:56:05,465 - ssh_honeypot - INFO - New connection from 127.0.0.1:52980
+2025-10-12 06:56:05,466 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:56:05,466 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:56:05,466 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:56:35,586 - ssh_honeypot - INFO - New connection from 127.0.0.1:49864
+2025-10-12 06:56:35,587 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:56:35,588 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:56:35,588 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:57:05,702 - ssh_honeypot - INFO - New connection from 127.0.0.1:45388
+2025-10-12 06:57:05,702 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:57:05,702 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:57:05,703 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:57:35,848 - ssh_honeypot - INFO - New connection from 127.0.0.1:36080
+2025-10-12 06:57:35,849 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:57:35,849 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:57:35,849 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:58:05,972 - ssh_honeypot - INFO - New connection from 127.0.0.1:39054
+2025-10-12 06:58:05,973 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:58:05,973 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:58:05,973 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:58:36,085 - ssh_honeypot - INFO - New connection from 127.0.0.1:47544
+2025-10-12 06:58:36,086 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:58:36,086 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:58:36,086 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:59:06,229 - ssh_honeypot - INFO - New connection from 127.0.0.1:33560
+2025-10-12 06:59:06,229 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:59:06,230 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:59:06,230 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 06:59:36,334 - ssh_honeypot - INFO - New connection from 127.0.0.1:58980
+2025-10-12 06:59:36,334 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 06:59:36,335 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 06:59:36,335 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 07:00:06,439 - ssh_honeypot - INFO - New connection from 127.0.0.1:50638
+2025-10-12 07:00:06,439 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 07:00:06,440 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 07:00:06,440 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 07:00:36,546 - ssh_honeypot - INFO - New connection from 127.0.0.1:49830
+2025-10-12 07:00:36,546 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 07:00:36,546 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 07:00:36,546 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 07:01:06,653 - ssh_honeypot - INFO - New connection from 127.0.0.1:53126
+2025-10-12 07:01:06,653 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 07:01:06,654 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 07:01:06,654 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 07:01:36,746 - ssh_honeypot - INFO - New connection from 127.0.0.1:58666
+2025-10-12 07:01:36,746 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 07:01:36,746 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 07:01:36,747 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 07:02:06,854 - ssh_honeypot - INFO - New connection from 127.0.0.1:35596
+2025-10-12 07:02:06,855 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 07:02:06,855 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 07:02:06,855 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 07:02:36,964 - ssh_honeypot - INFO - New connection from 127.0.0.1:59704
+2025-10-12 07:02:36,964 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 07:02:36,964 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 07:02:36,964 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 07:03:07,101 - ssh_honeypot - INFO - New connection from 127.0.0.1:37860
+2025-10-12 07:03:07,101 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 07:03:07,102 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 07:03:07,102 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 07:03:37,205 - ssh_honeypot - INFO - New connection from 127.0.0.1:48134
+2025-10-12 07:03:37,205 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 07:03:37,206 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 07:03:37,206 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 07:04:07,311 - ssh_honeypot - INFO - New connection from 127.0.0.1:51214
+2025-10-12 07:04:07,312 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 07:04:07,312 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 07:04:07,312 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 07:04:37,406 - ssh_honeypot - INFO - New connection from 127.0.0.1:52554
+2025-10-12 07:04:37,406 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 07:04:37,407 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 07:04:37,407 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 07:05:07,513 - ssh_honeypot - INFO - New connection from 127.0.0.1:55026
+2025-10-12 07:05:07,514 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 07:05:07,514 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 07:05:07,514 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 07:05:37,618 - ssh_honeypot - INFO - New connection from 127.0.0.1:60056
+2025-10-12 07:05:37,618 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 07:05:37,619 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 07:05:37,620 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 07:06:07,733 - ssh_honeypot - INFO - New connection from 127.0.0.1:53134
+2025-10-12 07:06:07,733 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 07:06:07,733 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 07:06:07,733 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 07:06:37,865 - ssh_honeypot - INFO - New connection from 127.0.0.1:39518
+2025-10-12 07:06:37,865 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 07:06:37,866 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 07:06:37,866 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 07:07:07,966 - ssh_honeypot - INFO - New connection from 127.0.0.1:49992
+2025-10-12 07:07:07,966 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 07:07:07,967 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 07:07:07,967 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 07:07:38,060 - ssh_honeypot - INFO - New connection from 127.0.0.1:53698
+2025-10-12 07:07:38,060 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 07:07:38,060 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 07:07:38,061 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 07:07:56,595 - ssh_honeypot - INFO - Starting SSH/TCP Honeypot...
+2025-10-12 07:07:56,595 - ssh_honeypot - INFO - Starting enhanced honeypot server on 0.0.0.0:2222
+2025-10-12 07:07:56,600 - ssh_honeypot - INFO - Metrics server started on port 9090
+2025-10-12 07:07:56,601 - ssh_honeypot - INFO - Honeypot listening on 0.0.0.0:2222
+2025-10-12 07:07:56,601 - ssh_honeypot - INFO - Ready to accept SSH and TCP connections...
+2025-10-12 07:08:01,503 - ssh_honeypot - INFO - New connection from 127.0.0.1:41594
+2025-10-12 07:08:01,504 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 07:08:01,504 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 07:08:01,504 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 07:08:31,600 - ssh_honeypot - INFO - New connection from 127.0.0.1:52930
+2025-10-12 07:08:31,600 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 07:08:31,601 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 07:08:31,601 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 07:08:38,061 - ssh_honeypot - INFO - New connection from 172.26.176.1:50646
+2025-10-12 07:08:40,893 - ssh_honeypot - INFO - Detected protocol: tcp from 172.26.176.1
+2025-10-12 07:09:01,717 - ssh_honeypot - INFO - New connection from 127.0.0.1:50138
+2025-10-12 07:09:01,718 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 07:09:01,719 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 07:09:01,719 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 07:09:31,831 - ssh_honeypot - INFO - New connection from 127.0.0.1:46612
+2025-10-12 07:09:31,831 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 07:09:31,831 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 07:09:31,831 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 07:10:01,936 - ssh_honeypot - INFO - New connection from 127.0.0.1:47466
+2025-10-12 07:10:01,936 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 07:10:01,937 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 07:10:01,938 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 07:10:32,059 - ssh_honeypot - INFO - New connection from 127.0.0.1:50560
+2025-10-12 07:10:32,060 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 07:10:32,061 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 07:10:32,061 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 07:11:02,165 - ssh_honeypot - INFO - New connection from 127.0.0.1:54492
+2025-10-12 07:11:02,165 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 07:11:02,166 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 07:11:02,166 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 07:11:32,276 - ssh_honeypot - INFO - New connection from 127.0.0.1:53280
+2025-10-12 07:11:32,276 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 07:11:32,277 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 07:11:32,277 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 07:11:36,952 - ssh_honeypot - INFO - Starting SSH/TCP Honeypot...
+2025-10-12 07:11:36,952 - ssh_honeypot - INFO - Starting enhanced honeypot server on 0.0.0.0:2222
+2025-10-12 07:11:36,955 - ssh_honeypot - INFO - Metrics server started on port 9090
+2025-10-12 07:11:36,955 - ssh_honeypot - INFO - Honeypot listening on 0.0.0.0:2222
+2025-10-12 07:11:36,956 - ssh_honeypot - INFO - Ready to accept SSH and TCP connections...
+2025-10-12 07:11:41,926 - ssh_honeypot - INFO - New connection from 127.0.0.1:47490
+2025-10-12 07:11:41,926 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 07:11:41,927 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 07:11:41,928 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 07:12:12,028 - ssh_honeypot - INFO - New connection from 127.0.0.1:38778
+2025-10-12 07:12:12,028 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 07:12:12,029 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 07:12:12,029 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 07:12:27,227 - ssh_honeypot - INFO - New connection from 172.26.176.1:51604
+2025-10-12 07:12:34,077 - ssh_honeypot - INFO - Detected protocol: tcp from 172.26.176.1
+2025-10-12 07:12:42,131 - ssh_honeypot - INFO - New connection from 127.0.0.1:46184
+2025-10-12 07:12:42,131 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 07:12:42,131 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 07:12:42,131 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 07:12:58,860 - ssh_honeypot - INFO - Event saved: tcp_honeypot_session from 172.26.176.1
+2025-10-12 07:12:58,860 - ssh_honeypot - INFO - Session completed: 172.26.176.1 -> dh via tcp (31.63s)
+2025-10-12 07:13:12,229 - ssh_honeypot - INFO - New connection from 127.0.0.1:58944
+2025-10-12 07:13:12,229 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 07:13:12,230 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 07:13:12,230 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 07:13:42,337 - ssh_honeypot - INFO - New connection from 127.0.0.1:34768
+2025-10-12 07:13:42,337 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 07:13:42,337 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 07:13:42,338 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 07:14:12,436 - ssh_honeypot - INFO - New connection from 127.0.0.1:52734
+2025-10-12 07:14:12,436 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 07:14:12,436 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 07:14:12,436 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 07:14:42,527 - ssh_honeypot - INFO - New connection from 127.0.0.1:53932
+2025-10-12 07:14:42,527 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 07:14:42,528 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 07:14:42,528 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 07:15:12,636 - ssh_honeypot - INFO - New connection from 127.0.0.1:51792
+2025-10-12 07:15:12,636 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 07:15:12,636 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 07:15:12,637 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 07:15:42,753 - ssh_honeypot - INFO - New connection from 127.0.0.1:60604
+2025-10-12 07:15:42,753 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 07:15:42,754 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 07:15:42,754 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 07:16:12,841 - ssh_honeypot - INFO - New connection from 127.0.0.1:56128
+2025-10-12 07:16:12,842 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 07:16:12,843 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 07:16:12,843 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 07:16:42,937 - ssh_honeypot - INFO - New connection from 127.0.0.1:35432
+2025-10-12 07:16:42,937 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 07:16:42,937 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 07:16:42,937 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 07:17:13,052 - ssh_honeypot - INFO - New connection from 127.0.0.1:37658
+2025-10-12 07:17:13,052 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 07:17:13,053 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 07:17:13,053 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 07:17:43,151 - ssh_honeypot - INFO - New connection from 127.0.0.1:60762
+2025-10-12 07:17:43,151 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 07:17:43,151 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 07:17:43,151 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 07:18:13,240 - ssh_honeypot - INFO - New connection from 127.0.0.1:35126
+2025-10-12 07:18:13,240 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 07:18:13,240 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 07:18:13,240 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 07:18:43,346 - ssh_honeypot - INFO - New connection from 127.0.0.1:37686
+2025-10-12 07:18:43,346 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 07:18:43,347 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 07:18:43,347 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 07:19:13,452 - ssh_honeypot - INFO - New connection from 127.0.0.1:39574
+2025-10-12 07:19:13,453 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 07:19:13,453 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 07:19:13,453 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 07:19:43,547 - ssh_honeypot - INFO - New connection from 127.0.0.1:51122
+2025-10-12 07:19:43,548 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 07:19:43,548 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 07:19:43,549 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 07:20:13,682 - ssh_honeypot - INFO - New connection from 127.0.0.1:55356
+2025-10-12 07:20:13,683 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 07:20:13,683 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 07:20:13,684 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 07:20:43,776 - ssh_honeypot - INFO - New connection from 127.0.0.1:47380
+2025-10-12 07:20:43,777 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 07:20:43,777 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 07:20:43,777 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 07:21:13,879 - ssh_honeypot - INFO - New connection from 127.0.0.1:45184
+2025-10-12 07:21:13,879 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 07:21:13,880 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 07:21:13,880 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 07:21:44,003 - ssh_honeypot - INFO - New connection from 127.0.0.1:52040
+2025-10-12 07:21:44,003 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 07:21:44,004 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 07:21:44,004 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 07:22:14,130 - ssh_honeypot - INFO - New connection from 127.0.0.1:36300
+2025-10-12 07:22:14,131 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 07:22:14,131 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 07:22:14,131 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 07:22:44,294 - ssh_honeypot - INFO - New connection from 127.0.0.1:57180
+2025-10-12 07:22:44,294 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 07:22:44,295 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 07:22:44,295 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 07:23:14,408 - ssh_honeypot - INFO - New connection from 127.0.0.1:60480
+2025-10-12 07:23:14,409 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 07:23:14,409 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 07:23:14,410 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 07:23:44,527 - ssh_honeypot - INFO - New connection from 127.0.0.1:39778
+2025-10-12 07:23:44,527 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 07:23:44,528 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 07:23:44,528 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 07:24:14,657 - ssh_honeypot - INFO - New connection from 127.0.0.1:55424
+2025-10-12 07:24:14,657 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 07:24:14,658 - ssh_honeypot - INFO - Event saved: unknown_honeypot_session from 127.0.0.1
+2025-10-12 07:24:14,658 - ssh_honeypot - INFO - Session completed: 127.0.0.1 ->  via unknown (0.00s)
+2025-10-12 07:24:44,805 - ssh_honeypot - INFO - New connection from 127.0.0.1:36834
+2025-10-12 07:24:44,805 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 07:24:44,807 - ssh_honeypot - ERROR - Failed to save session data: [Errno 13] Permission denied: '/data/honeypot/transcripts/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.txt'
+2025-10-12 07:25:14,939 - ssh_honeypot - INFO - New connection from 127.0.0.1:40404
+2025-10-12 07:25:14,939 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 07:25:14,940 - ssh_honeypot - ERROR - Failed to save session data: [Errno 13] Permission denied: '/data/honeypot/transcripts/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.txt'
+2025-10-12 07:25:45,043 - ssh_honeypot - INFO - New connection from 127.0.0.1:45510
+2025-10-12 07:25:45,043 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 07:25:45,044 - ssh_honeypot - ERROR - Failed to save session data: [Errno 13] Permission denied: '/data/honeypot/transcripts/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.txt'
+2025-10-12 07:26:15,159 - ssh_honeypot - INFO - New connection from 127.0.0.1:48458
+2025-10-12 07:26:15,159 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 07:26:15,159 - ssh_honeypot - ERROR - Failed to save session data: [Errno 13] Permission denied: '/data/honeypot/transcripts/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.txt'
+2025-10-12 07:26:45,280 - ssh_honeypot - INFO - New connection from 127.0.0.1:56116
+2025-10-12 07:26:45,281 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 07:26:45,281 - ssh_honeypot - ERROR - Failed to save session data: [Errno 13] Permission denied: '/data/honeypot/transcripts/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.txt'
+2025-10-12 07:27:15,871 - ssh_honeypot - INFO - New connection from 127.0.0.1:36202
+2025-10-12 07:27:15,871 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 07:27:15,871 - ssh_honeypot - ERROR - Failed to save session data: [Errno 13] Permission denied: '/data/honeypot/transcripts/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.txt'
+2025-10-12 07:27:45,981 - ssh_honeypot - INFO - New connection from 127.0.0.1:51798
+2025-10-12 07:27:45,981 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 07:27:45,981 - ssh_honeypot - ERROR - Failed to save session data: [Errno 13] Permission denied: '/data/honeypot/transcripts/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.txt'
+2025-10-12 07:28:16,112 - ssh_honeypot - INFO - New connection from 127.0.0.1:46668
+2025-10-12 07:28:16,112 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 07:28:16,113 - ssh_honeypot - ERROR - Failed to save session data: [Errno 13] Permission denied: '/data/honeypot/transcripts/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.txt'
+2025-10-12 07:28:46,187 - ssh_honeypot - INFO - New connection from 127.0.0.1:34996
+2025-10-12 07:28:46,187 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 07:28:46,187 - ssh_honeypot - ERROR - Failed to save session data: [Errno 13] Permission denied: '/data/honeypot/transcripts/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.txt'
+2025-10-12 07:29:16,290 - ssh_honeypot - INFO - New connection from 127.0.0.1:48376
+2025-10-12 07:29:16,291 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 07:29:16,291 - ssh_honeypot - ERROR - Failed to save session data: [Errno 13] Permission denied: '/data/honeypot/transcripts/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.txt'
+2025-10-12 07:29:46,400 - ssh_honeypot - INFO - New connection from 127.0.0.1:45562
+2025-10-12 07:29:46,401 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 07:29:46,401 - ssh_honeypot - ERROR - Failed to save session data: [Errno 13] Permission denied: '/data/honeypot/transcripts/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.txt'
+2025-10-12 07:30:16,513 - ssh_honeypot - INFO - New connection from 127.0.0.1:58824
+2025-10-12 07:30:16,513 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 07:30:16,514 - ssh_honeypot - ERROR - Failed to save session data: [Errno 13] Permission denied: '/data/honeypot/transcripts/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.txt'
+2025-10-12 07:30:46,634 - ssh_honeypot - INFO - New connection from 127.0.0.1:58958
+2025-10-12 07:30:46,634 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 07:30:46,634 - ssh_honeypot - ERROR - Failed to save session data: [Errno 13] Permission denied: '/data/honeypot/transcripts/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.txt'
+2025-10-12 07:31:17,086 - ssh_honeypot - INFO - New connection from 127.0.0.1:49732
+2025-10-12 07:31:17,092 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 07:31:17,095 - ssh_honeypot - ERROR - Failed to save session data: [Errno 13] Permission denied: '/data/honeypot/transcripts/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.txt'
+2025-10-12 07:31:47,281 - ssh_honeypot - INFO - New connection from 127.0.0.1:39224
+2025-10-12 07:31:47,282 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 07:31:47,283 - ssh_honeypot - ERROR - Failed to save session data: [Errno 13] Permission denied: '/data/honeypot/transcripts/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.txt'
+2025-10-12 07:32:16,529 - ssh_honeypot - INFO - New connection from 127.0.0.1:59692
+2025-10-12 07:32:16,530 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 07:32:16,530 - ssh_honeypot - ERROR - Failed to save session data: [Errno 13] Permission denied: '/data/honeypot/transcripts/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.txt'
+2025-10-12 07:32:46,774 - ssh_honeypot - INFO - New connection from 127.0.0.1:56896
+2025-10-12 07:32:46,775 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 07:32:46,775 - ssh_honeypot - ERROR - Failed to save session data: [Errno 13] Permission denied: '/data/honeypot/transcripts/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.txt'
+2025-10-12 07:33:16,959 - ssh_honeypot - INFO - New connection from 127.0.0.1:54836
+2025-10-12 07:33:16,959 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 07:33:16,960 - ssh_honeypot - ERROR - Failed to save session data: [Errno 13] Permission denied: '/data/honeypot/transcripts/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.txt'
+2025-10-12 07:33:47,115 - ssh_honeypot - INFO - New connection from 127.0.0.1:38612
+2025-10-12 07:33:47,115 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 07:33:47,115 - ssh_honeypot - ERROR - Failed to save session data: [Errno 13] Permission denied: '/data/honeypot/transcripts/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.txt'
+2025-10-12 07:34:17,288 - ssh_honeypot - INFO - New connection from 127.0.0.1:56346
+2025-10-12 07:34:17,289 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 07:34:17,289 - ssh_honeypot - ERROR - Failed to save session data: [Errno 13] Permission denied: '/data/honeypot/transcripts/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.txt'
+2025-10-12 07:34:47,493 - ssh_honeypot - INFO - New connection from 127.0.0.1:57198
+2025-10-12 07:34:47,494 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 07:34:47,494 - ssh_honeypot - ERROR - Failed to save session data: [Errno 13] Permission denied: '/data/honeypot/transcripts/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.txt'
+2025-10-12 07:35:17,643 - ssh_honeypot - INFO - New connection from 127.0.0.1:51706
+2025-10-12 07:35:17,644 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 07:35:17,648 - ssh_honeypot - ERROR - Failed to save session data: [Errno 13] Permission denied: '/data/honeypot/transcripts/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.txt'
+2025-10-12 07:35:47,899 - ssh_honeypot - INFO - New connection from 127.0.0.1:58216
+2025-10-12 07:35:47,899 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 07:35:47,899 - ssh_honeypot - ERROR - Failed to save session data: [Errno 13] Permission denied: '/data/honeypot/transcripts/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.txt'
+2025-10-12 07:36:18,057 - ssh_honeypot - INFO - New connection from 127.0.0.1:44138
+2025-10-12 07:36:18,057 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 07:36:18,058 - ssh_honeypot - ERROR - Failed to save session data: [Errno 13] Permission denied: '/data/honeypot/transcripts/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.txt'
+2025-10-12 07:36:48,228 - ssh_honeypot - INFO - New connection from 127.0.0.1:56732
+2025-10-12 07:36:48,229 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 07:36:48,230 - ssh_honeypot - ERROR - Failed to save session data: [Errno 13] Permission denied: '/data/honeypot/transcripts/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.txt'
+2025-10-12 07:37:18,407 - ssh_honeypot - INFO - New connection from 127.0.0.1:36202
+2025-10-12 07:37:18,408 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 07:37:18,408 - ssh_honeypot - ERROR - Failed to save session data: [Errno 13] Permission denied: '/data/honeypot/transcripts/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.txt'
+2025-10-12 07:37:48,570 - ssh_honeypot - INFO - New connection from 127.0.0.1:52084
+2025-10-12 07:37:48,570 - ssh_honeypot - INFO - No data received from 127.0.0.1, closing connection
+2025-10-12 07:37:48,570 - ssh_honeypot - ERROR - Failed to save session data: [Errno 13] Permission denied: '/data/honeypot/transcripts/e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.txt'
