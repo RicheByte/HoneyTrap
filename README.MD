@@ -42,51 +42,7 @@
 - **Rotating Logs**: Automatic log rotation to prevent disk exhaustion
 
 ##  Architecture
-
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                         Host System                              │
-│                      (Ubuntu Server)                             │
-└────────────────────────────┬────────────────────────────────────┘
-                             │
-                             │ Docker Bridge Network (honeynet)
-                             │
-┌────────────────────────────┴────────────────────────────────────┐
-│                    Docker Compose Stack                          │
-│                                                                  │
-│  ┌──────────────────┐  ┌──────────────┐  ┌──────────────────┐ │
-│  │   Honeypot       │  │  PCAP        │  │  Prometheus      │ │
-│  │   Service        │  │  Capture     │  │  (Metrics)       │ │
-│  │                  │  │              │  │                  │ │
-│  │ Port: 2222       │  │ tcpdump      │  │ Port: 9091       │ │
-│  │ Metrics: 9090    │  │              │  │                  │ │
-│  └────────┬─────────┘  └──────┬───────┘  └────────┬─────────┘ │
-│           │                   │                    │           │
-│           └───────────────────┼────────────────────┘           │
-│                               │                                │
-│  ┌────────────────────────────┴──────────────────────────┐    │
-│  │              Grafana Dashboard                         │    │
-│  │              Port: 3000                                │    │
-│  └────────────────────────────────────────────────────────┘    │
-│                                                                  │
-└──────────────────────────────────────────────────────────────────┘
-                             │
-                             │ Persistent Storage
-                             │
-┌────────────────────────────┴────────────────────────────────────┐
-│                      ./data/ Directory                           │
-│                                                                  │
-│  ├── honeypot/                                                   │
-│  │   ├── logs/              (Structured event logs)             │
-│  │   ├── transcripts/       (Session recordings)                │
-│  │   └── events.log         (JSON event stream)                 │
-│  │                                                               │
-│  ├── pcaps/                 (Full packet captures)              │
-│  │   └── honeypot-*.pcap                                        │
-│  │                                                               │
-│  └── grafana/               (Dashboard data & plugins)           │
-└──────────────────────────────────────────────────────────────────┘
-```
+![Architecture](/assets/image.png)
 
 ##  Quick Start
 
