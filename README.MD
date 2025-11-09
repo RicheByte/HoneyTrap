@@ -1,88 +1,125 @@
-## Build a industry-grade honeypot to trap hackers with me
+#  HoneyTrap
 
-## lets prepare host you system before devlop the honeytrap system.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Docker](https://img.shields.io/badge/Docker-Compose-blue.svg)](https://docs.docker.com/compose/)
+[![Python](https://img.shields.io/badge/Python-3.8+-green.svg)](https://www.python.org/)
 
-### Scope:
-*    **Honeypots:** Low-interaction SSH and HTTP services.
-*   **Data Capture:** Full packet capture (PCAP) and file/binary capture.
-*   **Logging:** Structured logs for all events.
-*   **Enrichment:** Automated external data enrichment for source IPs.
-*   **UI:** A basic web UI for viewing events and artifacts.
-*   **Process:** A clear playbook for escalation.
+**HoneyTrap** is a production-ready, containerized honeypot system designed to detect, log, and analyze malicious SSH/TCP connection attempts. Built with Docker and Python, it provides comprehensive threat intelligence gathering with full packet capture, real-time monitoring, and detailed session transcripts.
 
-### Architecture 
+##  Table of Contents
 
-```
-+-------------------+
-|   Host System     |
-| (Ubuntu Server)   |
-+--------+----------+
-         |
-         | (Isolated Network/VLAN/Bridge)
-         v
-+-----------------------------+
-|    Honeypot Network (e.g., honeynet)    |
-| (172.18.0.0/16)             |
-+----------+------------------+
-           |
-           |
-           v
-+-------------------------------------------------+
-|   Docker Compose Stack                          |
-|                                                 |
-|   +---------------------+   +-----------------+ |
-|   |    Honeypot Service   |   |   PCAP Service    | |
-|   | (Python SSH Honeypot) |   | (corfr/tcpdump)   | |
-|   |   (Listens on 2222)   |   |  (Captures eth0)  | |
-|   |     IP: 172.18.0.10   |   |   IP: 172.18.0.11 | |
-|   +----------+----------+   +--------+--------+ |
-|              |                         |           |
-|              |                         |           |
-|              +-------------------------+           |
-|                        Shared Volume                |
-|                      (/data on host)                |
-|                                                     |
-|           /data/honeypot (logs/transcripts)         |
-|           /data/pcaps (full packet captures)        |
-+-----------------------------------------------------+
-         |
-         | (Out-of-band analysis/Ingestion)
-         v
-+-----------------------------------------------------+
-|   Analysis & Storage Layer (e.g., Host System)      |
-|                                                     |
-|   +---------------------+   +---------------------+ |
-|   |   Network Analysis    |   |  Enrichment Engine  | |
-|   | (Zeek/Suricata on PCAP)|   | (Python Script)     | |
-|   +---------------------+   +---------------------+ |
-|              |                         |              |
-|              v                         v              |
-|   +---------------------------------------------+     |
-|   |    Storage & UI (Elasticsearch/Kibana)      |     |
-|   |       (Ingests logs, enriched data, files)  |     |
-|   +---------------------------------------------+     |
-+-----------------------------------------------------+
+- [Features](#-features)
+- [Architecture](#-architecture)
+- [Quick Start](#-quick-start)
+- [Configuration](#-configuration)
+- [Monitoring & Metrics](#-monitoring--metrics)
+- [Data Collection](#-data-collection)
+- [Security Considerations](#-security-considerations)
+- [Roadmap](#-roadmap)
+- [Contributing](#-contributing)
+- [License](#-license)
+
+##  Features
+
+### Core Capabilities
+
+- ** Multi-Protocol Honeypot**: SSH and raw TCP/Telnet protocol detection and emulation
+- ** Full Packet Capture**: Continuous PCAP collection of all network traffic
+- ** Detailed Logging**: Structured JSON logs with session transcripts, credentials, and commands
+- ** Real-time Metrics**: Prometheus integration for monitoring and alerting
+- ** Visualization**: Grafana dashboards for threat intelligence visualization
+- ** Session Recording**: Complete session transcripts with SHA-256 identification
+- ** High Performance**: Thread-pooled architecture supporting 1000+ concurrent connections
+- ** Containerized**: Easy deployment with Docker Compose
+- ** Auto-restart**: Resilient services with health checks and automatic recovery
+
+### Security Features
+
+- **Input Sanitization**: Protection against log injection attacks
+- **Timeout Management**: Configurable session timeouts to prevent resource exhaustion
+- **Isolated Network**: Dedicated Docker network for containment
+- **Rate Limiting**: Configurable connection limits
+- **Rotating Logs**: Automatic log rotation to prevent disk exhaustion
+
+##  Architecture
 
 ```
+┌─────────────────────────────────────────────────────────────────┐
+│                         Host System                              │
+│                      (Ubuntu Server)                             │
+└────────────────────────────┬────────────────────────────────────┘
+                             │
+                             │ Docker Bridge Network (honeynet)
+                             │
+┌────────────────────────────┴────────────────────────────────────┐
+│                    Docker Compose Stack                          │
+│                                                                  │
+│  ┌──────────────────┐  ┌──────────────┐  ┌──────────────────┐ │
+│  │   Honeypot       │  │  PCAP        │  │  Prometheus      │ │
+│  │   Service        │  │  Capture     │  │  (Metrics)       │ │
+│  │                  │  │              │  │                  │ │
+│  │ Port: 2222       │  │ tcpdump      │  │ Port: 9091       │ │
+│  │ Metrics: 9090    │  │              │  │                  │ │
+│  └────────┬─────────┘  └──────┬───────┘  └────────┬─────────┘ │
+│           │                   │                    │           │
+│           └───────────────────┼────────────────────┘           │
+│                               │                                │
+│  ┌────────────────────────────┴──────────────────────────┐    │
+│  │              Grafana Dashboard                         │    │
+│  │              Port: 3000                                │    │
+│  └────────────────────────────────────────────────────────┘    │
+│                                                                  │
+└──────────────────────────────────────────────────────────────────┘
+                             │
+                             │ Persistent Storage
+                             │
+┌────────────────────────────┴────────────────────────────────────┐
+│                      ./data/ Directory                           │
+│                                                                  │
+│  ├── honeypot/                                                   │
+│  │   ├── logs/              (Structured event logs)             │
+│  │   ├── transcripts/       (Session recordings)                │
+│  │   └── events.log         (JSON event stream)                 │
+│  │                                                               │
+│  ├── pcaps/                 (Full packet captures)              │
+│  │   └── honeypot-*.pcap                                        │
+│  │                                                               │
+│  └── grafana/               (Dashboard data & plugins)           │
+└──────────────────────────────────────────────────────────────────┘
+```
 
+##  Quick Start
 
-### MVP Feature List (Prioritized)
+### Prerequisites
 
-1.  **Single SSH Honeypot:** Python-based, logs login attempts, commands, and session transcripts.
-2.  **Continuous PCAP:** Full packet capture of the honeypot network, rotated daily.
-3.  **File Capture:** Any files uploaded to the honeypot are saved. (Currently not implemented in the basic Python honeypot, but part of a more advanced solution like Cowrie).
-4.  **Automated Enrichment:** Source IP enrichment with WHOIS, RDAP, GeoIP, ASN.
-5.  **Web UI:** Basic interface for viewing events and downloading artifacts. (Needs Elastic/Kibana or Loki/Grafana setup which is a next step after MVP deployment).
-6.  **Playbook for Escalation:** Defined steps for internal SOC, MISP, or law enforcement reporting.
+- Ubuntu 20.04+ (or similar Linux distribution)
+- Docker 20.10+
+- Docker Compose 2.0+
+- 2GB RAM minimum
+- 10GB free disk space (more recommended for long-term PCAP storage)
 
+### Automated Installation
 
-### Concrete Deployment Steps 
-
-#### 1. Prepare Host System
+The easiest way to get started:
 
 ```bash
-# Assuming an Ubuntu Server or similar host system
+# Clone the repository
+git clone https://github.com/RicheByte/HoneyTrap.git
+cd HoneyTrap
 
+# Run the automated setup script
+chmod +x setup.sh
+./setup.sh
+
+# Log out and back in for group changes to take effect
+exit
+```
+
+### Manual Installation
+
+If you prefer manual setup:
+
+```bash
 # 1. Update system packages
 sudo apt update && sudo apt upgrade -y
 
@@ -110,7 +147,7 @@ mkdir -p ~/honeypot/honeypot
 cd ~/honeypot
 ```
 
-
+#### or run the ./setup.sh as giving persimission for execute.
 
 
 
